@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quimba - Portfolio</title>
+    
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span data-en="Quimba" data-fil="Quimba">Quimba</span>
+            </div>
+            
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="fil">Filipino</option>
+                </select>
+            </div>
+            
+            <div class="theme-toggle">
+                <button id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fas fa-user-circle"></i>
+                </button>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-en="Home" data-fil="Tahanan">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-en="About" data-fil="Tungkol">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link" data-en="Portfolio" data-fil="Portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-en="Contact" data-fil="Makipag-ugnayan">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-en="Hi, I'm Quimba" data-fil="Kumusta, ako si Quimba">Hi, I'm Quimba</h1>
+                <h2 class="hero-subtitle" data-en="Full Stack Developer" data-fil="Full Stack Developer">Full Stack Developer</h2>
+                <p class="hero-description" data-en="I create beautiful and functional web applications with modern technologies." data-fil="Lumilikha ako ng magagandang at functional na web applications gamit ang mga modernong teknolohiya.">
+                    I create beautiful and functional web applications with modern technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary" data-en="View My Work" data-fil="Tingnan ang Aking Trabaho">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary" data-en="Get In Touch" data-fil="Makipag-ugnayan">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                   <img src="profile.jpg.jpg"> <alt="Noel-profile" class="avatar-image"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Me" data-fil="Tungkol sa Akin">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="I'm a passionate full-stack developer with 5+ years of experience in creating web applications. I specialize in modern JavaScript frameworks and have a strong background in both frontend and backend development." data-fil="Ako ay isang masigasig na full-stack developer na may 5+ taong karanasan sa paggawa ng web applications. Dalubhasa ako sa mga modernong JavaScript frameworks at may malakas na background sa frontend at backend development.">
+                        I'm a passionate full-stack developer with 5+ years of experience in creating web applications. I specialize in modern JavaScript frameworks and have a strong background in both frontend and backend development.
+                    </p>
+                    <div class="skills">
+                        <h3 data-en="Skills" data-fil="Mga Kasanayan">Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title" data-en="My Portfolio" data-fil="Aking Portfolio">My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 data-en="E-commerce Website" data-fil="E-commerce Website">E-commerce Website</h3>
+                        <p data-en="A full-stack e-commerce solution built with React and Node.js" data-fil="Isang full-stack e-commerce solution na ginawa gamit ang React at Node.js">
+                            A full-stack e-commerce solution built with React and Node.js
+                        </p>
+                        <div class="portfolio-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 data-en="Task Management App" data-fil="Task Management App">Task Management App</h3>
+                        <p data-en="A responsive task management application with real-time updates" data-fil="Isang responsive task management application na may real-time updates">
+                            A responsive task management application with real-time updates
+                        </p>
+                        <div class="portfolio-tech">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 data-en="Analytics Dashboard" data-fil="Analytics Dashboard">Analytics Dashboard</h3>
+                        <p data-en="A data visualization dashboard for business analytics" data-fil="Isang data visualization dashboard para sa business analytics">
+                            A data visualization dashboard for business analytics
+                        </p>
+                        <div class="portfolio-tech">
+                            <span>React</span>
+                            <span>D3.js</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Get In Touch" data-fil="Makipag-ugnayan">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-en="Let's work together!" data-fil="Magtrabaho tayo nang sama-sama!">Let's work together!</h3>
+                    <p data-en="I'm always interested in new opportunities and exciting projects." data-fil="Lagi akong interesado sa mga bagong oportunidad at exciting na mga proyekto.">
+                        I'm always interested in new opportunities and exciting projects.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Noelivanquimba17@email.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>09651097745</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-en="San Franz" data-fil="San Franz">San Francisco Agusan Del Sur</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" data-en="Name" data-fil="Pangalan">Name</label>
+                        <input type="text" id="name" name="name" required maxlength="50">
+                        <span class="char-count">0/50</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" data-en="Email" data-fil="Email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" data-en="Subject" data-fil="Paksa">Subject</label>
+                        <input type="text" id="subject" name="subject" required maxlength="100">
+                        <span class="char-count">0/100</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" data-en="Message" data-fil="Mensahe">Message</label>
+                        <textarea id="message" name="message" rows="5" required maxlength="150"></textarea>
+                        <span class="char-count">0/150</span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" data-en="Send Message" data-fil="Magpadala ng Mensahe">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p data-en="© 2025 Quimba. All rights reserved." data-fil="© 2025 Quimba. Lahat ng karapatan ay nakalaan.">&copy; 2025 Quimba. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/toggle-bar.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/language-selector.js"></script>
+    <script src="js/form-persistence.js"></script>
+    <script src="js/char-limit.js"></script>
+</body>
+</html>
+
